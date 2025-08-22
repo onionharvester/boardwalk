@@ -1,0 +1,62 @@
+
+(kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
+  (symbol "CMC-5044PF-A" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+    (property "Reference" "MK" (id 0) (at -2.54029 3.81043 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Value" "CMC-5044PF-A" (id 1) (at -2.54097 -6.35243 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Footprint" "CMC-5044PF-A:CUI_CMC-5044PF-A" (id 2) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "STANDARD" "Manufacturer recommendations" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MANUFACTURER" "CUI INC" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (symbol "CMC-5044PF-A_0_0"
+      (circle (center 0.0 0.0) (radius 2.54)
+        (stroke (width 0.254)) (fill (type none))
+      )
+      (polyline
+        (pts (xy -2.54 2.54) (xy -2.54 -2.54)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 5.08 2.54) (xy 3.81 2.54)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 3.81 2.54) (xy 3.81 1.27)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 3.81 1.27) (xy 2.2352 1.27)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 5.08 -2.54) (xy 3.81 -2.54)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 3.81 -2.54) (xy 3.81 -1.27)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 3.81 -1.27) (xy 2.2352 -1.27)) (stroke (width 0.254))
+      )
+      (pin output line (at 7.62 2.54 180.0) (length 2.54)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "OUT"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 7.62 -2.54 180.0) (length 2.54)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "GND"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+    )
+  )
+)
