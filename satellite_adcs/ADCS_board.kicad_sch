@@ -1,0 +1,370 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "db20b18b-d25a-428e-8229-70a189e1de75")
+	(paper "A4")
+	(title_block
+		(title "ADCS Main Board")
+		(date "2025-05-22")
+		(rev "1.7")
+		(company "Stanford Student Space Initiative")
+		(comment 1 "Sage Wu")
+	)
+	(lib_symbols)
+	(text "ADCS Main"
+		(exclude_from_sim no)
+		(at 212.09 177.8 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+				(thickness 1.016)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "7b5099dd-420b-44c2-b627-49f3bf6e2c57")
+	)
+	(sheet
+		(at 34.29 67.31)
+		(size 30.48 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "00000000-0000-0000-0000-00005cec5a72")
+		(property "Sheetname" "Avionics"
+			(at 34.29 65.9634 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Avionics.kicad_sch"
+			(at 34.29 88.7226 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ADCS_board"
+				(path "/db20b18b-d25a-428e-8229-70a189e1de75"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 87.63 68.58)
+		(size 30.48 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "00000000-0000-0000-0000-00005cec5dde")
+		(property "Sheetname" "Power"
+			(at 87.63 67.2334 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power.kicad_sch"
+			(at 87.63 89.9926 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ADCS_board"
+				(path "/db20b18b-d25a-428e-8229-70a189e1de75"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 34.29 35.56)
+		(size 30.48 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "00000000-0000-0000-0000-00005cec60eb")
+		(property "Sheetname" "Connectors"
+			(at 34.29 34.2134 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Connectors.kicad_sch"
+			(at 34.29 56.9726 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ADCS_board"
+				(path "/db20b18b-d25a-428e-8229-70a189e1de75"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 34.29 134.62)
+		(size 30.48 24.13)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0d8bb02c-6fa5-44fe-b4b4-1cd93a80e6f4")
+		(property "Sheetname" "GPS"
+			(at 34.29 133.2734 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "GPS.kicad_sch"
+			(at 34.29 159.8426 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ADCS_board"
+				(path "/db20b18b-d25a-428e-8229-70a189e1de75"
+					(page "11")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 87.63 33.02)
+		(size 30.48 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "67b17ff2-5f27-4a28-98e8-ddccf930f803")
+		(property "Sheetname" "Photodiodes"
+			(at 87.63 31.6734 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "photodiodes.kicad_sch"
+			(at 87.63 54.4326 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ADCS_board"
+				(path "/db20b18b-d25a-428e-8229-70a189e1de75"
+					(page "12")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 34.29 100.33)
+		(size 29.21 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a393ea4a-5f4e-4c0f-917f-6d28e91dd546")
+		(property "Sheetname" "Watchdog"
+			(at 34.29 98.9834 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "watchdog.kicad_sch"
+			(at 34.29 124.2826 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ADCS_board"
+				(path "/db20b18b-d25a-428e-8229-70a189e1de75"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 87.63 104.14)
+		(size 30.48 24.13)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a3d832b6-a1cc-4410-a8d7-1698d429804f")
+		(property "Sheetname" "IMU_and_Magnetometer"
+			(at 87.63 102.7934 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "IMU_and_Magnetometer.kicad_sch"
+			(at 87.63 129.3626 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ADCS_board"
+				(path "/db20b18b-d25a-428e-8229-70a189e1de75"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 87.63 143.51)
+		(size 30.48 24.13)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "bf054148-62e0-4cf7-809c-5cbf4e6f48f2")
+		(property "Sheetname" "Magnetorquer Drivers"
+			(at 87.63 142.1634 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "magnetorquer_driver.kicad_sch"
+			(at 87.63 168.7326 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ADCS_board"
+				(path "/db20b18b-d25a-428e-8229-70a189e1de75"
+					(page "15")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
