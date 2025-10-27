@@ -1,1 +1,2 @@
-# Still a WIP, not finished yet!!
+# Pocket Playback
+## Music Tinbox, Audio Circuit Board
